@@ -24,7 +24,7 @@ export default {
     padding-bottom: 20px;
     }
 
-    /* Everything but the jumbotron gets side spacing for mobile first views */
+    /* Everything but the jumbotron gets side spacing for mobi sdfdsf e first views */
     .header,
     .marketing,
     .footer {
