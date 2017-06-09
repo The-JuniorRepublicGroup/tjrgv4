@@ -2,12 +2,28 @@
   <div class="container header clearfix">
         <nav>
           <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active"><a href="#">Home</a></li>
-            <li role="presentation"><a href="#">About</a></li>
-            <li role="presentation"><a href="#">Contact</a></li>
+         
+              <router-link tag="li" to='/home'>
+                  <a>History Triv</a>
+              </router-link>
+           
+
+          
+              <router-link tag="li" to='/contact'>
+                  <a>Number Triv</a>
+              </router-link>
+           
+
+            
+              <router-link tag="li" to='/about'>
+                  <a>About</a>
+              </router-link>
+          
+            
           </ul>
         </nav>
-        <h3 class="text-muted">T I N G Z D E Y</h3>
+
+        <h3 class="text-muted">Random Knawwledge</h3>
       </div>
 </template>
 
@@ -18,11 +34,16 @@ export default {
 </script>
 
 <style>
+
         /* Space out content a bit */
     body {
     padding-top: 20px;
     padding-bottom: 20px;
     }
+
+    /*headtitle{
+        font-family: 'Raleway', sans-serif;
+    }*/
 
     /* Everything but the jumbotron gets side spacing for mobi sdffgdsfsdfdfgdsf e first views */
     .header,
@@ -71,6 +92,8 @@ export default {
     font-size: 21px;
     }
 
+    
+
     /* Supporting marketing content */
     .marketing {
     margin: 40px 0;
@@ -78,6 +101,8 @@ export default {
     .marketing p + h4 {
     margin-top: 28px;
     }
+
+
 
     /* Responsive: Portrait tablets and up */
     @media screen and (min-width: 768px) {
